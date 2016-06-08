@@ -34,10 +34,6 @@ public class SpelerControllerGraphic implements ISpelerController {
     }
 
     @Override
-    public void toonBord(ArrayList<Kaart> bord) {
-    }
-
-    @Override
     public Kaart vraagKaart(ArrayList<String> spelerNamen,
                             HashMap<String, Kaart> bord,
                             ArrayList<Kaart> hand) {

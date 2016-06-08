@@ -23,13 +23,6 @@ public interface ISpelerController {
                  HashMap<String, Integer> biedingen);
 
     /**
-     * Toon de kaarten die gespeeld zijn.
-     * @param bord Kaarten die gespeeld zijn.
-     */
-    @Deprecated
-    void toonBord(ArrayList<Kaart> bord);
-
-    /**
      * Vraag de gebruiker een kaart op te spelen op basis van de al gespeelde
      * kaarten.
      * @param spelerNamen De namen van de spelers die opgegooit hebben.

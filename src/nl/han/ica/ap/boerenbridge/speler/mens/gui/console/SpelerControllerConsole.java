@@ -85,13 +85,6 @@ public class SpelerControllerConsole implements ISpelerController {
     }
 
     @Override
-    public void toonBord(ArrayList<Kaart> bord) {
-        System.out.println("Bord:");
-        toonKaarten(bord);
-        System.out.println();
-    }
-
-    @Override
     public Kaart vraagKaart(ArrayList<String> spelers,
                             HashMap<String, Kaart> bord,
                             ArrayList<Kaart> hand) {
