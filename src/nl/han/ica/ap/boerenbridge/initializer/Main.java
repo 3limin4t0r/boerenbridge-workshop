@@ -17,7 +17,7 @@ public class Main {
      */
     public static void main(String[] args) {
         Spel spel = new Spel();
-        spel.neemDeel(new ComputerSpeler("cpu 1", "willekeurig", "willekeurig"));
+        spel.neemDeel(new ComputerSpeler("cpu 1", "willekeurig", "groep1"));
         spel.neemDeel(new ComputerSpeler("cpu 2", "willekeurig", "willekeurig"));
         spel.neemDeel(new ComputerSpeler("cpu 3", "willekeurig", "willekeurig"));
         spel.neemDeel(new ComputerSpeler("cpu 4", "willekeurig", "willekeurig"));
