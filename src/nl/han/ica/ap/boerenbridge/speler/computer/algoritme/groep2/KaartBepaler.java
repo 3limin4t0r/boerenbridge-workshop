@@ -26,7 +26,7 @@ public class KaartBepaler extends AKaart {
         int[] puntenTelling = new int[speelbareKaarten.size()];
 
         for (Kaart k : speelbareKaarten) {
-            for (int i = 0; i < 10000; i++) {
+            for (int i = 0; i < 100000; i++) {
                 if (AlgoritmeHelper.bepaalWinnaar(AlgoritmeHelper.genereerBord(k, huidigeBord, kaartteller.getOngespeeldeKaarten(speelbareKaarten)), k)) {
                     puntenTelling[speelbareKaarten.indexOf(k)] ++;
                 }
